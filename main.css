@@ -1,0 +1,197 @@
+body {
+  font-family: 'Roboto';
+  color: #221f1f;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #2b2b2b;
+  color: #fff;
+  margin-bottom: 42px;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.contacts__desc {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.breadcrumbs {
+  margin-bottom: 25px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__item:after {
+  content: '/';
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  color: #b24930;
+  opacity: .8;
+}
+
+.breadcrumbs__link_active {
+  color: black;
+  text-decoration: none;
+}
+
+.section {
+  width: 870px;
+  float: left;
+  margin-right: 45px;
+}
+
+.title {
+  font-size: 49px;
+  font-weight: bold;
+  color: #484646;
+  margin-bottom: 50px;
+}
+
+.sidebar {
+  width: 140px;
+  float: left;
+}
+
+
+.team__item {
+  width: 245px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 45px;
+
+}
+
+.team__avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.team__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team__occ {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b24930;
+}
+
+.team__content {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.nav__item {
+  margin-bottom: 27px;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link:hover .nav__text {
+  color: #221f1f;
+}
+
+.nav__link:hover .nav__icon_arrow {
+  background-image: url('../img/icons/main-icon.png');
+}
+
+.nav__link:hover .nav__icon_direction {
+  background-image: url('../img/icons/direction-hover.png');
+}
+
+.nav__link:hover .nav__icon_star {
+  background-image: url('../img/icons/star-hover.png');
+}
+
+.nav__icon {
+  width: 28px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__text {
+  font-size: 12px;
+  color: #b24930;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__icon_direction {
+  background: url('../img/icons/direction.png') center center no-repeat;
+}
+
+.nav__icon_arrow {
+  background: url('../img/icons/main-icon-orange.png') center center no-repeat;
+}
+
+.nav__icon_star {
+  background: url('../img/icons/feed-icon.png') center center no-repeat;
+}
+
+.socials__item {
+  display: inline-block;
+}
+
+.footer {
+  height: 80px;
+  background: #2b2b2b;
+  color: #fff;
+}
+
+.footer__col {
+  float: left;
+  width: 33.3%;
+}
