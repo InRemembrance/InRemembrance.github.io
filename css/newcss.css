@@ -168,4 +168,5 @@ margin-top: 3px;
 .footer {
   height: 78px;
   background: #1c5bc3;
+  clear: both;
 }
